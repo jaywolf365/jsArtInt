@@ -1,0 +1,18 @@
+function thisFunction() {
+  console.log(typeof())
+}
+let math = thisFunction();
+const matrix = math.matrix([[0, 1], [2, 3], [4, 5]]);
+const matrix2 = math.matrix([[0, 1], [2, 3], [4, 5]]);
+if (matrix == matrix2) {
+  function myFunction() {
+    let x = 6;
+    let y = x^2;
+    console.log(y);
+  }
+  console.log(myFunction())
+} else if (matrix * 2 > matrix2) {
+  console.log('Matrix one is two time greater')
+} else {
+  console.log('syntax error')
+}
