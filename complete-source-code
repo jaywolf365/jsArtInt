@@ -1,4 +1,0 @@
-let infoProcess = function (userInput) {
-  let userInput;
-  let object1 = {}
-}

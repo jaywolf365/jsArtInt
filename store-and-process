@@ -1,0 +1,10 @@
+let infoProcess = function (userInput) {
+  let object1 = {
+	  wordOne: null,
+	  wordTwo: null,
+  }
+}
+
+let infoProcess = infoStore ({
+	input: null
+})
