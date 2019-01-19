@@ -1,15 +1,32 @@
-function firstAlg() {
-let infoStore = function (userInput) {
-  let object1 = {
-	  wordOne: null,
-	  wordTwo: null,
-  }
+let userPath = null;
+
+let input = function (userInput) {
+	let info = {}
+	switch (words) {
+		case userInput == words:
+		  words.word1 = userInput;
+		  break;
+		
+	}
 }
 
-let infoProcess = infoStore ({
-	input: null,
-})
+let processing = function(vari, num, str) {
+	let info;
+	info = {}
+	switch (info) {
+		case info==vari:
+          info.variable = vari;
+          console.log();
+          break;
+        case info==num:
+          info.number = num;
+          console.log();
+          break;
+        case info==str: 
+          info.number = num;
+          console.log();
+          break;		  
+		  
+	}
 }
-
-firstAlg();
 
